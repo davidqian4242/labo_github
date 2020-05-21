@@ -3,7 +3,7 @@ package labo_Github;
 public class FizzBuzz {
     public static void main(String [] args) {
         String word;
-        for (int i = 1; i <= 100; i++) {
+        for (int i = 1; i <= 200; i++) {
             word = CheckNumber(i);
             System.out.println(word);
         }
